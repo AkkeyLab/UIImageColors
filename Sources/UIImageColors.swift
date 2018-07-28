@@ -163,7 +163,7 @@ fileprivate extension Double {
     }
 }
 
-extension UIImage {
+public extension UIImage {
     private func resizeForUIImageColors(newSize: CGSize) -> UIImage {
         UIGraphicsBeginImageContextWithOptions(newSize, false, 0)
         defer {
